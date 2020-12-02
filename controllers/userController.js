@@ -1,5 +1,4 @@
 const router = require('express').Router()
-const orm = require('../config/orm.js')
 const user = require('../models/user.js')
 
 router.get('/users', (req, res) => user.getAll(users => res.json(users)))
