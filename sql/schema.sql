@@ -7,7 +7,5 @@ USE users_db;
 CREATE TABLE users (
 	id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     name VARCHAR(50) NOT NULL,
-    email VARCHAR(50) NOT NULL,
-    age INT NOT NULL,
-    address VARCHAR(50) NOT NULL
+    isHere BOOL NOT NULL
 );
